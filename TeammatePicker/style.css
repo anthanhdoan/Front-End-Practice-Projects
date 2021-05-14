@@ -1,0 +1,71 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #d2e2d1;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appContainer {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #225c22;
+    border-radius: 25px;
+    min-width: 600px;
+    width: 600px;
+    display: flex;
+}
+
+img {
+    width: 300px;
+    border-radius: 25px 0 0 25px;
+}
+
+.userInterface {
+    color: #FFFFFF;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectedMember {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+h1 {
+    background: #225c22;
+    color: #FFFFFF;
+    margin: 0 0 20px 0;
+    font-size: 2.5rem;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+#pickerBtn {
+    background: #348f34;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    Padding: 10px 20px;
+    border-radius: 10px;
+}
+
+button:focus { 
+    outline: none; 
+}
