@@ -12,6 +12,7 @@ body {
   height: 100vh;
   width: 100%;
   color: #444;
+  background-image: linear-gradient(45deg, #b5ffff, #e2ffff);
 }
 
 .container {
@@ -19,7 +20,8 @@ body {
   flex-direction: column;
   padding: 2em;
   border-radius: 1em;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.33);
+  background-color: #fff;
 }
 
 .project-list {
@@ -33,7 +35,7 @@ body {
 }
 .project-item {
   padding: 0.5em 1em;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.33);
   background-color: teal;
   color: #e9e9e9;
   border-radius: 50px;
